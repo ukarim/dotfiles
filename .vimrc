@@ -37,3 +37,8 @@ nnoremap <C-n> :bnext<CR>
 " close current buffer
 nnoremap <C-w> :bd<CR>
 
+" undo
+nnoremap <C-z> :undo<CR>
+
+
+
