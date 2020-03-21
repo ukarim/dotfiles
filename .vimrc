@@ -15,19 +15,15 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-Plugin 'morhetz/gruvbox'
+Plugin 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
 
 " tabs on top with buffer names
 let g:airline#extensions#tabline#enabled = 1
 
-" gruvbox theme for statusline
-let g:airline_theme='gruvbox'
-
 " enable dark gruvbox theme
-colorscheme gruvbox
-set background=dark
+colorscheme dracula
 
 filetype plugin indent on
 
