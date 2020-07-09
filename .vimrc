@@ -4,6 +4,8 @@ set nocompatible
 " enable line numbers
 set number
 
+set guifont=Ubuntu\ Mono\ 18
+
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
