@@ -1,6 +1,0 @@
-#!/usr/bin/env julia
-
-for str in ARGS
-  println(lowercase(str))
-end
-
